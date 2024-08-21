@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="Brand Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Usefull Resources</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">&#9776;</div>
+    </header>
+
+    <section class="hero">
+        <img src="banner.png" alt="Hero Banner" class="banner">
+        <div class="hero-text">
+            <h1>What is Lorem Ipsum?</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="content-block">
+            <img src="Jar.jpg" alt="Jar Image">
+            <p>Where does it come from? Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="content-block">
+            <img src="Jar.jpg" alt="Jar Image">
+            <p>Where does it come from? Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="content-block">
+            <img src="Jar.jpg" alt="Jar Image">
+            <p>Where does it come from? Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </section>
+
+    <section class="detailed-content">
+        <div class="text-content">
+            <h2 class="my_heading">What is Lorem Ipsum?</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.</p>
+            <ul>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing.</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text.</li>
+            </ul>
+        </div>
+        <div class="image-content">
+            <img src="carring.jpg" alt="Carring Image">
+        </div>
+    </section>
+
+
+    <section class="detailed-content">
+        <div class="image-content">
+            <img src="Jar.jpg" alt="Jar Image" class="final-image">
+        </div>
+        <div class="text-content">
+            <h2 class="my_heading">What is Lorem Ipsum?</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.</p>
+            <ul>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing.</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing.</li>
+                <li>Lorem Ipsum has been the industry's standard dummy text.</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Mysite. All rights reserved.</p>
+        <nav class="footer-nav">
+            <a href="#">Legal Notice</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Cookie Policy</a>
+        </nav>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
